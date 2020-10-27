@@ -16,6 +16,22 @@ Exemplo
 
 www.seusite.com:9000/ping?limit=10&page=5
 
+#Horse-Paginate
+Middleware for Horse Server's JSON Data pagination
+
+For enabling JSON Data Pagination with client's request it´s needed 
+passing the following HEADER parameter
+
+X-Paginate = true
+
+In order to control pagination you can send the following URL params on your request
+
+limit-X (This param defines pagination's registers size)
+
+page-X (This param informs which pagination page should be returned)
+
+Example:
+www.seusite.com:9000/ping?limit=10&page=5
 
 Sample Horse Server
 ```delphi
